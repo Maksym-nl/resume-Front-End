@@ -1,0 +1,107 @@
+:root {
+  --primary-text-color: black;
+  --background-color-body: rgb(255, 255, 255);
+  --background-color-header: rgb(149, 151, 151);
+  --background-color-footer: rgb(149, 151, 151);
+  --background-color-aside: rgb(210, 226, 218);
+  --color-text-footer: brown;
+  --color-link-active: teal;
+  --color-link-hover: rgba(238, 9, 9, 0.932);
+  --font-size-link: 17px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+}
+body {
+  width: 680px;
+  background-color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  color: var(--primary-text-color);
+}
+.list-marker {
+  list-style: none;
+}
+main {
+  width: 400px;
+  border: 1px solid red;
+}
+/*========HEADER========*/
+.header {
+  display: flex;
+  background-color: var(--background-color-header);
+}
+
+.img-header {
+  width: 280px;
+}
+.title {
+}
+.text-header {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.text-header {
+  text-align: center;
+}
+.section {
+}
+.name-section {
+}
+.text-section {
+}
+.list a {
+}
+.list-item {
+}
+.link {
+  text-decoration: none;
+}
+.link:active {
+  color: teal;
+  font-size: 17px;
+}
+.link:hover,
+.link:focus {
+  color: var(--color-link-hover);
+  font-size: 17px;
+}
+
+.work {
+}
+.text {
+}
+.aside {
+  width: 280px;
+  background-color: rgb(210, 226, 218);
+  border: 1px solid red;
+}
+.aside-main {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.section-aside {
+}
+.address {
+}
+.link-contacts {
+  text-decoration: none;
+}
+.link-contacts:hover,
+.link-contacts:focus {
+  color: rgba(238, 9, 9, 0.932);
+  font-size: 17px;
+}
+.footer p {
+  color: brown;
+  font-size: 17px;
+  text-align: center;
+  background-color: rgb(149, 151, 151);
+}
